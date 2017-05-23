@@ -1,9 +1,9 @@
-package leetcode;
+package leetcode.medium;
 import leetcode.basicDatastructure.*;
 import leetcode.easy.*;
 import leetcode.hard.*;
 import leetcode.medium.*;
-public class test {
+public class Q2test {
 	
 	public static void main(String[] argc){
 		ListNode l1=new ListNode(2);
