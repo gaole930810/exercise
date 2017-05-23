@@ -9,7 +9,8 @@ public class Q3 {
 		for(int start=0;start<charArray.length&&charArray.length-start>maxL;start++){
 			int locat=start;
 			String subStr="";
-			for(String c=String.valueOf(charArray[locat]);locat<charArray.length;locat++){
+			for(;locat<charArray.length;locat++){
+				String c=String.valueOf(charArray[locat]);
 				if(subStr.contains(c))
 					break;
 				subStr+=c;
