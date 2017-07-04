@@ -1,4 +1,4 @@
-package leetcode.medium;
+package leetcode.hard;
 
 public class Q4test {
 	public static void main(String[] args){
